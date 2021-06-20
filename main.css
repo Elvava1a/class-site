@@ -1,3 +1,14 @@
 body{
-  background-color:pink;
+  background-color:#abb4d4;
+  color: white
+}
+
+.h1{
+  color: gray;
+  font-family: sans-serif;
+}
+
+.dotted {
+  border-style:dotted;
+  width:50vh;
 }
