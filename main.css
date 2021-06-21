@@ -8,14 +8,25 @@ body{
 }
 
 .h1{
+  color:rgba(255, 99, 71, 0.5);
+  font-size: 35px;
   font-family: Monospace, sans-serif;
 }
 
 .font{
   color:white;
+  font-size: 12px;
   font-family: Monospace, sans-serif;
 }
+
 .dotted {
   border-style:dotted solid;
   width:50vh;
+}
+
+.italic{
+  font-style: italic;
+  color:white;
+  font-size: 12px;
+  font-family: Monospace, sans-serif;
 }
