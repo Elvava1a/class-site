@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: rgb(101,166,227);
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin:20px;
+  font-size: 20px;
+  font-family:"Big Shoulders Stencil Display", serif;
+}
+
+.object{
+  background: rgb(189,83,105);
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  display:inline-block;
+  position:absolute;
+  bottom:300px;
+  right:300px;
+  /* transition: all 1s ease; */
+  transition: border-radius 1s ease, transform .5s ease,
+  background 1s ease;
+}
+
+.object:hover {
+  border-radius: 0;
+  /* width:400px;
+  height: 400px; */
+  transform: scale(2);
+  background: rgb(84,131,71);
+}

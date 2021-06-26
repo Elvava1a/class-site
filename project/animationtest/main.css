@@ -1,0 +1,93 @@
+body{
+  margin:0;
+  background-color:#abb4d4;
+}
+
+img{
+  max-width:100%;
+}
+
+p{
+  text-align:center;
+  animation: pules 1s infinite alternate;
+}
+
+.circle {
+  background: rgba(255, 99, 71, 0.5);
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin:150px auto;
+  /*animation: pules;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;*/
+
+  animation: pules 2s infinite alternate;
+}
+
+.square{
+  background: blue;
+  width:100px;
+  height:100px;
+  margin:100px auto;
+  animation: spin 2s infinite linear;
+}
+
+.zoomer{
+    background:rgba(255, 99, 71, 0.5);
+    width:250px;
+    height:50px;
+    animation: zoom 5s infinite linear;
+}
+
+@keyframes pules {
+  0% {
+    background:rgba(255, 99, 71, 0.5);
+    /*width:100px;
+    height: 100px;*/
+    transform: scale(1);
+  }
+
+  50%{
+    background:#abb4d4;
+    /*width:200px;
+    height: 200px;*/
+      transform: scale(2);
+  }
+
+  100%{
+    background: lightblue;
+    /*width:300px;
+    height: 300px;*/
+    transform: scale(3);
+  }
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes zoom{
+  0%{
+    transform: translateX(-250px);
+  }
+  40%{
+    background: rgba(255, 99, 71, 0.5);
+  }
+  50%{
+    background: lightblue;
+  }
+  60%{
+    background: red;
+  }
+  100%{
+    transform: translateX(100vw);
+  }
+}
