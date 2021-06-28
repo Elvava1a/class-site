@@ -409,16 +409,12 @@ body {
 
 .circle-15:hover {
   border-radius: 20%;
-  /* width:400px;
-  height: 400px; */
   transform: scale(2);
   background: #6e8eff;
 }
 
 .circle-16:hover {
   border-radius: 20%;
-  /* width:400px;
-  height: 400px; */
   transform: scale(2);
   background: #6e8eff;
 }
