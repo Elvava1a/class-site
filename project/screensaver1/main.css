@@ -1,0 +1,438 @@
+* {
+  box-sizing: border-box;
+  background: #abb4d4;
+}
+
+body {
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  height: 50% auto;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5 5 5 5;
+}
+
+.object {
+  background: rgb(189, 83, 105);
+  width: 140px;
+  height: 75px;
+  border-radius: 50% 0;
+  margin: 63px;
+  z-index: 9;
+  animation: spin 40s infinite alternate;
+}
+
+.object:before {
+  background: rgb(189, 83, 105);
+  width: 140px;
+  height: 75px;
+  border-radius: 50% 0;
+  content: "";
+  display: block;
+  position: absolute;
+  transform: rotate(60deg);
+}
+
+.object:after {
+  background: rgb(189, 83, 105);
+  width: 140px;
+  height: 75px;
+  border-radius: 50% 0;
+  /* margin-top: 200px; */
+  content: "";
+  display: block;
+  transform: rotate(-60deg);
+}
+
+.circle-1 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 78px;
+  margin-right: 1570px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff1 5s infinite;
+}
+
+.circle-2 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 78px;
+  margin-right:980px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff2 5s infinite;
+}
+
+.circle-3 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 78px;
+  margin-right:380px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff1 5s infinite;
+}
+
+.circle-4 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 78px;
+  margin-left: 380px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff2 5s infinite;
+}
+
+.circle-5 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 78px;
+  margin-left: 980px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff1 5s infinite;
+}
+
+.circle-6 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 78px;
+  margin-left:1570px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff2 5s infinite;
+}
+
+.circle-7 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 80px;
+  margin-right: 1570px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff2 5s infinite;
+}
+
+.circle-8 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 80px;
+  margin-right:980px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff1 5s infinite;
+}
+
+.circle-9 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 80px;
+  margin-right:380px;
+  border-radius: 50%;
+  z-index: 10;
+  animation:opacityOnAndOff2 5s infinite;
+}
+
+.circle-10 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 80px;
+  margin-left: 380px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff1 5s infinite;
+}
+
+.circle-11 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 80px;
+  margin-left: 980px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff2 5s infinite;
+}
+
+.circle-12 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 80px;
+  margin-left:1570px;
+  border-radius: 50%;
+  z-index: 10;
+  animation:opacityOnAndOff1 5s infinite;
+}
+
+.circle-13 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 82px;
+  margin-right: 1570px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff1 5s infinite;
+}
+
+.circle-14 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 82px;
+  margin-right:980px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff2 5s infinite;
+}
+
+.circle-15 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 82px;
+  margin-right:380px;
+  border-radius: 50%;
+  z-index: 10;
+  animation:opacityOnAndOff1 5s infinite;
+}
+
+.circle-16 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 82px;
+  margin-left: 380px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff2 5s infinite;
+}
+
+.circle-17 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 82px;
+  margin-left: 980px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff1 5s infinite;
+}
+
+.circle-18 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 82px;
+  margin-left:1570px;
+  border-radius: 50%;
+  z-index: 10;
+  animation:opacityOnAndOff2 5s infinite;
+}
+
+.circle-19 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 84px;
+  margin-right: 1570px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff2 5s infinite;
+}
+
+.circle-20 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 84px;
+  margin-right:980px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff1 5s infinite;
+}
+
+.circle-21 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 84px;
+  margin-right:380px;
+  border-radius: 50%;
+  z-index: 10;
+  animation:opacityOnAndOff2 5s infinite;
+}
+
+.circle-22 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 84px;
+  margin-left: 380px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff1 5s infinite;
+}
+
+.circle-23 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 84px;
+  margin-left: 980px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff2 5s infinite;
+}
+
+.circle-24 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 84px;
+  margin-left:1570px;
+  border-radius: 50%;
+  z-index: 10;
+  animation:opacityOnAndOff1 5s infinite;
+}
+
+.circle-25 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 86px;
+  margin-right: 1570px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff1 5s infinite;
+}
+
+.circle-26 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 86px;
+  margin-right:980px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff2 5s infinite;
+}
+
+.circle-27 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 86px;
+  margin-right:380px;
+  border-radius: 50%;
+  z-index: 10;
+  animation:opacityOnAndOff1 5s infinite;
+}
+
+.circle-28 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 86px;
+  margin-left: 380px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff2 5s infinite;
+}
+
+.circle-29 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 86px;
+  margin-left: 980px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: opacityOnAndOff1 5s infinite;
+}
+
+.circle-30 {
+  background: rgba(12, 31, 113, .89);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 86px;
+  margin-left:1570px;
+  border-radius: 50%;
+  z-index: 10;
+  animation:opacityOnAndOff2 5s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes opacityOnAndOff1 {
+  0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+@keyframes opacityOnAndOff2 {
+  0% {
+        opacity: 100;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
