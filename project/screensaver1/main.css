@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  background: #abb4d4;
+  background: #99d8e6;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 .object {
-  background: rgb(189, 83, 105);
+  background: rgb(250,76,123);
   width: 140px;
   height: 75px;
   border-radius: 50% 0;
@@ -26,11 +26,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: spin 40s infinite alternate;
+  animation: spin 30s infinite alternate;
 }
 
 .object:before {
-  background: rgb(189, 83, 105);
+  background: rgb(250,76,123);
   width: 140px;
   height: 75px;
   border-radius: 50% 0;
@@ -41,7 +41,7 @@ body {
 }
 
 .object:after {
-  background: rgb(189, 83, 105);
+  background:rgb(250,76,123);
   width: 140px;
   height: 75px;
   border-radius: 50% 0;
@@ -52,7 +52,7 @@ body {
 }
 
 .circle-1 {
-  background: rgba(12, 31, 113, .89);
+  background: rgba(56,85,214,.89);
   width: 40px;
   height: 40px;
   position: absolute;
@@ -64,7 +64,7 @@ body {
 }
 
 .circle-2 {
-  background: rgba(12, 31, 113, .89);
+  background: rgba(56,85,214,.89);
   width: 40px;
   height: 40px;
   position: absolute;
@@ -76,7 +76,7 @@ body {
 }
 
 .circle-15 {
-  background: rgba(12, 31, 113, .89);
+  background: rgba(56,85,214,.89);
   width: 40px;
   height: 40px;
   position: absolute;
@@ -86,7 +86,7 @@ body {
 }
 
 .circle-16 {
-  background: rgba(12, 31, 113, .89);
+  background: rgba(56,85,214,.89);
   width: 40px;
   height: 40px;
   position: absolute;
@@ -97,14 +97,14 @@ body {
 
 .circle-15:hover {
   border-radius: 20%;
-  transform: scale(2);
-  background: #6e8eff;
+  transform: scale(1.5);
+  background: #fffe9c;
 }
 
 .circle-16:hover {
   border-radius: 20%;
-  transform: scale(2);
-  background: #6e8eff;
+  transform: scale(1.5);
+  background: #fffe9c;
 }
 
 @keyframes spin {
