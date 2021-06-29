@@ -10,9 +10,10 @@ body {
 img{
   width: 120vw;
   height:120vh;
-  opacity: 0.4;
+  opacity: 0.5;
   justify-content: center;
   align-items: center;
+  position: absolute;
   animation: spin 10s infinite;
 }
 

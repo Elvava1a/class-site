@@ -22,6 +22,10 @@ body {
   border-radius: 50% 0;
   margin: 63px;
   z-index: 9;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   animation: spin 40s infinite alternate;
 }
 
@@ -52,8 +56,8 @@ body {
   width: 40px;
   height: 40px;
   position: absolute;
-  margin: 78px;
-  margin-right: 1570px;
+  /* margin: 78px; */
+  /* margin-right: 1570px; */
   border-radius: 50%;
   z-index: 10;
   animation: opacityOnAndOff1 5s infinite;
@@ -64,152 +68,8 @@ body {
   width: 40px;
   height: 40px;
   position: absolute;
-  margin: 78px;
-  margin-right: 980px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-3 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 78px;
-  margin-right: 380px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-4 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 78px;
-  margin-left: 380px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-5 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 78px;
-  margin-left: 980px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-6 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 78px;
-  margin-left: 1570px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-7 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 80px;
-  margin-right: 1570px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-8 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 80px;
-  margin-right: 980px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-9 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 80px;
-  margin-right: 380px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-10 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 80px;
-  margin-left: 380px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-11 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 80px;
-  margin-left: 980px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-12 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 80px;
-  margin-left: 1570px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-13 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 82px;
-  margin-right: 1570px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-14 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 82px;
-  margin-right: 980px;
+  /* margin: 78px; */
+  /* margin-right: 1570px; */
   border-radius: 50%;
   z-index: 10;
   animation: opacityOnAndOff2 5s infinite;
@@ -220,8 +80,6 @@ body {
   width: 40px;
   height: 40px;
   position: absolute;
-  margin: 82px;
-  margin-right: 10px;
   border-radius: 50%;
   z-index: 10;
   transition: all 1s ease;
@@ -232,179 +90,9 @@ body {
   width: 40px;
   height: 40px;
   position: absolute;
-  margin: 82px;
-  margin-left: 140px;
   border-radius: 50%;
   z-index: 10;
   transition: all 1s ease;
-}
-
-.circle-17 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 82px;
-  margin-left: 980px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-18 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 82px;
-  margin-left: 1570px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-19 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 84px;
-  margin-right: 1570px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-20 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 84px;
-  margin-right: 980px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-21 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 84px;
-  margin-right: 380px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-22 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 84px;
-  margin-left: 380px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-23 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 84px;
-  margin-left: 980px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-24 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 84px;
-  margin-left: 1570px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-25 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 86px;
-  margin-right: 1570px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-26 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 86px;
-  margin-right: 980px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-27 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 86px;
-  margin-right: 380px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-28 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 86px;
-  margin-left: 380px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
-}
-
-.circle-29 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 86px;
-  margin-left: 980px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff1 5s infinite;
-}
-
-.circle-30 {
-  background: rgba(12, 31, 113, .89);
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  margin: 86px;
-  margin-left: 1570px;
-  border-radius: 50%;
-  z-index: 10;
-  animation: opacityOnAndOff2 5s infinite;
 }
 
 .circle-15:hover {
