@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #abb4d4;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 150px 150px 150px;
+}
+
+img {
+  max-width: 100%;
+  justify-content: space-around;
+  padding: inherit;
+}
+
+.circle {
+  background: #5367b0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: sticky;
+  top: 200px;
+  left: 500px;
+  z-index: 10;
+}
