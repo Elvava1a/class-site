@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>JavaScript</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <button onclick="toggle()">Click me...</button>
+
+  <div id="box" class="box-styles">
+    MENU
+    <ul>
+      <li>Menu Item 1</li>
+      <li>Menu Item 2</li>
+      <li>Menu Item 3</li>
+    </ul>
+  </div>
+
+  <script>
+  function toggle() {
+  var box = document.getElementById("box");
+  box.classList.toggle("active");
+  }
+  </script>
+
+</body>
+
+</html>

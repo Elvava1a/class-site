@@ -9,3 +9,9 @@ body {
 img {
   max-width: 100%;
 }
+
+.marquee {
+  overflow: hidden;
+  border:1px solid #ccc;
+  font-size: 30px;
+}

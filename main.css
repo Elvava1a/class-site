@@ -3,22 +3,25 @@ body{
   color: white;
   font-size:12px;
   font-family: Monospace, sans-serif;
-  padding: 25px 50px 75px;
+  padding-left: 500px;
+  padding-top: 100px;
 }
 
 h1{
   color:rgba(255, 99, 71, 0.5);
-  font-size: 35px;
+  font-size: 50px;
+  padding-left: 140px;
   font-family: Monospace, sans-serif;
 }
 
 .font{
   color:white;
-  font-size: 12px;
+  font-size: 25px;
   font-family: Monospace, sans-serif;
 }
 
 .dotted {
+  color:#9aa4c6;
   border-style:dotted solid;
   width:50vh;
   padding: 50px 50px 50px;
