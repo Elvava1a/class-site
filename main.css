@@ -3,17 +3,17 @@ body {
   color: white;
   font-size: 12px;
   font-family: Monospace, sans-serif;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  /* margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px; */
 }
 
 h1 {
   color: #ffffff;
   font-size: 70px;
   margin: 0.5em;
-font-family: 'Tourney', cursive;
+  font-family: 'Tourney', cursive;
   text-align: center;
 }
 
@@ -32,7 +32,6 @@ p {
   margin-left: auto;
   margin-right: auto;
 } */
-
 .italic {
   font-style: italic;
   color: white;
