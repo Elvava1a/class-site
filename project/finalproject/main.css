@@ -4,8 +4,9 @@
 
 body {
 font-size: 30px;
+font-family: 'Zen Loop', cursive;
 background-image: linear-gradient(to bottom left, rgb(31,109,213), rgb(156,187,246));
-padding: 0;
+background-attachment: fixed;
 }
 
 h1{
@@ -18,7 +19,7 @@ h1{
   margin: 10em;
   flex-direction: row;
 justify-content: space-around;
-  animation: zoom 5s infinite linear;
+  /* animation: zoom 5s infinite linear; */
 }
 
 .cloud{
@@ -28,7 +29,7 @@ justify-content: space-around;
    background:#ECEFF1;
    box-shadow: 10px 10px rgba(0,0,0,0.2);
    border-radius:100px;
-     animation: zoom 5s infinite linear;
+     /* animation: zoom 5s infinite linear; */
 }
 
 .cloud::after, .cloud::before{
@@ -37,7 +38,7 @@ justify-content: space-around;
     display:inline-block;
     background:inherit;
     border-radius:inherit;
-      animation: zoom 50s infinite linear;
+      /* animation: zoom 50s infinite linear; */
 }
 
 .cloud::after{
@@ -45,7 +46,7 @@ justify-content: space-around;
     height:100px;
     top:-220px;
     left:50px;
-    animation: zoom 10s infinite linear;
+    /* animation: zoom 10s infinite linear; */
 }
 
 .cloud::before{
@@ -53,7 +54,7 @@ justify-content: space-around;
     height:180px;
     top: -70px;
     left:130px;
-      animation: zoom 5s infinite linear;
+      /* animation: zoom 5s infinite linear; */
 }
 
 @keyframes zoom {

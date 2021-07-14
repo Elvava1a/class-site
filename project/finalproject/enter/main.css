@@ -3,8 +3,10 @@
 }
 
 body {
-  background-image: url("bk.jpg");
-  /* background-image: linear-gradient(to bottom left, rgb(31,109,213), rgb(156,187,246)); */
+  font-family: 'Zen Loop', cursive;
+  color:white;
+  background-image: linear-gradient(to bottom left, rgb(31,109,213), rgb(156,187,246));
+  background-attachment: fixed;
 }
 
 .flex-box{
@@ -13,10 +15,24 @@ body {
   height:250px;
   margin-top: 350px;
   margin-left: 650px;
-  background-color: rgba(51,139,212,0.2);
+  background-color: rgba(31,109,213,0.5);
   border-radius: 50px;
   flex-direction: column;
 justify-content: center;
 padding: 35px;
 position: absolute;
+animation: zoom 10s infinite linear;
+}
+
+@keyframes zoom {
+  0%{transform: scale(1);
+    opacity: 1;
+  }
+50%{
+  transition: scale(1.5);
+  opacity: .5;
+}
+  100%{transform: scale(1);
+  opacity: 1;
+}
 }

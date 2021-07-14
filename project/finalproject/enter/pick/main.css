@@ -3,7 +3,11 @@
 }
 
 body {
-  background-image: url("bk.jpg");
+  /* background-image: url("bk.jpg"); */
+  font-family: 'Zen Loop', cursive;
+  color:white;
+background-image: linear-gradient(to bottom left, rgb(31,109,213), rgb(156,187,246));
+background-attachment: fixed;
 }
 
 img{
@@ -11,13 +15,20 @@ img{
   height: 350px;
 }
 
+.box{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
 .sticky{
   background:rgb(199,110,143);
   width:300px;
   height:50px;
   position:sticky;
-  top:10px;
-  text-align: center;
+  top:100px;
+
+margin: 100px 150px 10px;
 z-index: 10;
   /* position: absolute; */
 }
@@ -26,7 +37,7 @@ z-index: 10;
   display: flex;
   height: 100vh;
   flex-direction: column;
-  padding: 100px 10px 10px 10px;
+  padding: 50px 10px 10px 10px;
 }
 
 .flex-box1{
