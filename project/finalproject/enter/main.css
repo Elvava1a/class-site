@@ -4,6 +4,7 @@
 
 body {
   background-image: url("bk.jpg");
+  /* background-image: linear-gradient(to bottom left, rgb(31,109,213), rgb(156,187,246)); */
 }
 
 .flex-box{
