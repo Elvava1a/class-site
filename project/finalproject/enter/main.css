@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("bk.jpg");
+}
+
+.flex-box{
+  display: flex;
+  width: 500px;
+  height:250px;
+  margin-top: 350px;
+  margin-left: 650px;
+  background-color: rgba(51,139,212,0.2);
+  border-radius: 50px;
+  flex-direction: column;
+justify-content: center;
+padding: 35px;
+position: absolute;
+}

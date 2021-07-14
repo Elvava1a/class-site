@@ -1,50 +1,49 @@
 * {
   box-sizing: border-box;
-  background-image: url("bk.jpg");
 }
 
 body {
 font-size: 30px;
+background-image: url("bk.jpg");
 }
 
 h1{
   font-size: 30px;
+  padding: 5px 5px 5px 5px;
 }
 
-.flexbox {
+.flex-container {
   display: flex;
   margin: 10em;
-justify-content: space-around;
-}
-
-.box1 {
-  display: flex;
-  background-color: rgb(228,180,111);
-  height: 100px;
-  width: 100px;
   flex-direction: row;
-  border-radius: 50%;
-  /* padding: 10px 10px 10px 10px; */
 justify-content: space-around;
-  text-align: center;
-}
 
-.box2 {
-  display: flex;
-  height: 100px;
-  width: 100px;
-  flex-direction: row;
-  /* padding: 10px 10px 10px 10px; */
-justify-content: space-around;
-  text-align: center;
 }
-
-.box3 {
-  display: flex;
-  height: 100px;
-  width: 100px;
-  flex-direction: row;
-  /* padding: 10px 10px 10px 10px; */
-justify-content: space-around;
-  text-align: center;
+.cloud{
+   margin-top:70px;
+   width:350px;
+   height:120px;
+   background:#ECEFF1;
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:100px;
+   /* animation:  */
+}
+.cloud::after, .cloud::before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+}
+.cloud::after{
+    width:100px;
+    height:100px;
+    top:-220px;
+    left:50px;
+}
+.cloud::before{
+    width:180px;
+    height:180px;
+    top: -70px;
+    left:130px;
 }
