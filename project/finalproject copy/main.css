@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+font-size: 30px;
+font-family: 'Zen Loop', cursive;
+background-image: linear-gradient(to bottom left, rgb(31,109,213), rgb(156,187,246));
+background-attachment: fixed;
+}
+
+h1{
+  font-size: 30px;
+  padding: 50px 5px 5px 5px;
+}
+
+.flex-container {
+  display: flex;
+  margin: 10em;
+  flex-direction: row;
+justify-content: space-around;
+  /* animation: zoom 5s infinite linear; */
+}
+
+.cloud{
+   margin-top:70px;
+   width:350px;
+   height:120px;
+   background:#ECEFF1;
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:100px;
+     /* animation: zoom 5s infinite linear; */
+}
+
+.cloud::after, .cloud::before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+      /* animation: zoom 50s infinite linear; */
+}
+
+.cloud::after{
+    width:100px;
+    height:100px;
+    top:-220px;
+    left:50px;
+    /* animation: zoom 10s infinite linear; */
+}
+
+.cloud::before{
+    width:180px;
+    height:180px;
+    top: -70px;
+    left:130px;
+      /* animation: zoom 5s infinite linear; */
+}
+
+@keyframes zoom {
+  0%{transform: scale(1);
+    opacity: 1;
+  }
+50%{
+  transition: scale(1.5);
+  opacity: .5;
+}
+  100%{transform: scale(1);
+  opacity: 1;
+}
+}
