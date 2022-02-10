@@ -3,69 +3,122 @@
 }
 
 body {
-font-size: 30px;
-font-family: 'Zen Loop', cursive;
-background-image: linear-gradient(to bottom left, rgb(31,109,213), rgb(156,187,246));
-background-attachment: fixed;
-}
-
-h1{
   font-size: 30px;
-  padding: 50px 5px 5px 5px;
+  font-family: 'Comfortaa', cursive;
+  background-color: #041330;
+  background-image: url("main-bk.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* animation: test 10s infinite; */
 }
 
-.flex-container {
-  display: flex;
-  margin: 10em;
-  flex-direction: row;
-justify-content: space-around;
-  /* animation: zoom 5s infinite linear; */
+img{
+  position: absolute;
+  top: 55%;
+  left: 42%;
+    margin:inherit;
 }
 
-.cloud{
-   margin-top:70px;
-   width:350px;
-   height:120px;
-   background:#ECEFF1;
-   box-shadow: 10px 10px rgba(0,0,0,0.2);
-   border-radius:100px;
-     /* animation: zoom 5s infinite linear; */
+a{
+  text-decoration: none;
 }
 
-.cloud::after, .cloud::before{
-    content:"";
-    position:relative;
-    display:inline-block;
-    background:inherit;
-    border-radius:inherit;
-      /* animation: zoom 50s infinite linear; */
+.object {
+  /* background: #074aa3; */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  left: 48%;
+    margin:inherit;
+  /* transition: all 1s ease; */
+  transition: border-radius 1s ease, transform .5s ease,
+    background 1s ease;
+      animation: test 10s infinite;
 }
 
-.cloud::after{
-    width:100px;
-    height:100px;
-    top:-220px;
-    left:50px;
-    /* animation: zoom 10s infinite linear; */
+.object:hover {
+  border-radius: 0;
+  transform: scale(2);
 }
 
-.cloud::before{
-    width:180px;
-    height:180px;
-    top: -70px;
-    left:130px;
-      /* animation: zoom 5s infinite linear; */
+.tooltip {
+  position: inherit;
+  margin-left: 55%;
+  margin-top: 25%;
+  display: inline-block;
 }
 
-@keyframes zoom {
-  0%{transform: scale(1);
-    opacity: 1;
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: rgb(67,91,252, 0.5);
+  color: #baa9a9;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  position: center;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  /* position: center;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+@keyframes test {
+  0% {
+    -webkit-filter: blur(0px);
   }
-50%{
-  transition: scale(1.5);
-  opacity: .5;
+
+  75% {
+    -webkit-filter: blur(0px);
+  }
+
+  80% {
+    -webkit-filter: blur(5px);
+  }
+
+  90% {
+    -webkit-filter: blur(10px);
+  }
+
+  100% {
+    -webkit-filter: blur(5px);
+  }
 }
-  100%{transform: scale(1);
-  opacity: 1;
+
+/* img:hover {
+  -webkit-animation: image_blur 5s, infinite;
 }
-}
+
+@-webkit-keyframes image_blur {
+  0% {
+    -webkit-filter: blur(0px);
+  }
+
+  20% {
+    -webkit-filter: blur(5px);
+  }
+
+  40% {
+    -webkit-filter: blur(10px);
+  }
+
+  60% {
+    -webkit-filter: blur(15px);
+  }
+
+  80% {
+    -webkit-filter: blur(10px);
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+  }
+} */

@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-size: 30px; */
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  background-image: url("bk.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.star{
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 2px;
+}
+.moon{
+  width: 200px;
+  height:200px;
+  margin-left: 50px;
+  margin-top: 2px;
+}
+
+.flex-box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 10px 10px 10px;
+}
+
+.flex-box2 {
+    background-color: rgb(4,19,48,0.7);
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 80px;
+  text-align: center;
+  justify-content: space-around;
+  pandding:10px 10px 10px 10px;
+}
+
+h1 {
+  font-size: 35px;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  font-size: 25px;
+  width: 250px;
+  background-color: rgb(67, 91, 252, 0.5);
+  color: #baa9a9;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.sticky{
+  /* background:red;
+  width:300px;
+  height:80px; */
+  position:sticky;
+  top:100px;
+}
+
+.cloud {
+  position:sticky;
+  top: 50px;
+  width: 350px;
+  height: 120px;
+  background: #85bcfc;
+  box-shadow: 10px 10px rgba(37, 41, 144, .8);
+  border-radius: 100px;
+  z-index: -1;
+  animation: wave 16s infinite linear;
+}
+
+.cloud::after, .cloud::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  background: inherit;
+  border-radius: inherit;
+}
+
+.cloud::after {
+  width: 100px;
+  height: 100px;
+  top: -130px;
+  right: 130px;
+}
+
+.cloud::before {
+  width: 180px;
+  height: 180px;
+  top: -70px;
+  left: 130px;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(-20vw);
+    opacity: 0;
+  }
+
+  20% {
+    transform: translateX(20vw);
+    opacity: 0;
+  }
+
+  40% {
+    transform: translateX(60vw);
+    opacity: .5;
+  }
+
+  60% {
+    transition: translateX(100vw);
+    opacity: 0.2;
+  }
+
+  80% {
+    transform: translateX(140vw);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateX(200vw);
+    opacity: 0;
+  }
+}
