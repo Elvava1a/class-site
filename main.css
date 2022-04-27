@@ -1,8 +1,8 @@
 body {
-  background-color: #a779b9;
-  color: white;
+  background-color: #d1d1d1;
+  color: rgb(35,36,35);
   font-size: 12px;
-  font-family: Monospace, sans-serif;
+  font-family: 'Syne Tactile', cursive;
   /* margin-block-start: 1em;
 margin-block-end: 1em;
 margin-inline-start: 0px;
@@ -10,7 +10,7 @@ margin-inline-end: 0px; */
 }
 
 h1 {
-  color: #ffffff;
+  color: rgb(35,36,35);
   font-size: 70px;
   margin: 0.5em;
   font-family: 'Tourney', cursive;
@@ -19,9 +19,9 @@ h1 {
 
 p {
   margin: 10px;
-  color: white;
+  color: rgb(35,36,35);
   font-size: 25px;
-  font-family: 'Tourney', cursive;
+font-family: 'Syne Tactile', cursive;
 }
 
 /* .dotted {
@@ -34,12 +34,17 @@ p {
 } */
 .italic {
   font-style: italic;
-  color: white;
+  color: rgb(35,36,35);
   font-size: 12px;
   font-family: Monospace, sans-serif;
 }
+.marquee {
+  overflow: hidden;
+  /* border:1px solid #ccc; */
+  font-size: 25px;
+}
 
-div {
+.dotted {
   background: #b496ff;
   width: 50vh;
   padding: 50px 50px 50px;
